@@ -2,7 +2,12 @@
 /* Footer — modelled on propellerads.com footer columns */
 $footCols = [
     'Platform' => ['Traffic quality', 'Traffic volume', 'Advertising automation', 'Campaign management', 'Brand protection'],
-    'Solutions' => ['For affiliates', 'For agencies', 'For media buyers', 'For direct advertisers'],
+    'Solutions' => [
+        'For affiliates' => 'affiliates.php',
+        'For agencies' => 'agencies.php',
+        'For media buyers' => 'media-buyers.php',
+        'For direct advertisers' => 'direct-advertisers.php',
+    ],
     'Ad Formats' => ['Push ads', 'In-Page Push ads', 'Popunder ads', 'Interactive ads', 'Social Traffic ads'],
     'Company' => ['About us','Help center', 'Contact us'],
 ];
@@ -25,10 +30,17 @@ $footCols = [
                     <a href="#" aria-label="Telegram">✈</a>
                 </div>
             </div>
-            <?php foreach ($footCols as $head => $links): ?>
+                    <?php foreach ($footCols as $head => $links): ?>
                 <div class="footer__col">
                     <h4><?= $head ?></h4>
-                    <?php foreach ($links as $l): ?><a href="<?= $l === 'Contact us' ? 'contact.php' : '#' ?>"><?= $l ?></a><?php endforeach; ?>
+                            <?php foreach ($links as $label => $href):
+                                if (is_int($label)) {
+                                    $label = $href;
+                                    $href = $label === 'Contact us' ? 'contact.php' : '#';
+                                }
+                            ?>
+                                <a href="<?= $href ?>"><?= $label ?></a>
+                            <?php endforeach; ?>
                 </div>
             <?php endforeach; ?>
         </div>

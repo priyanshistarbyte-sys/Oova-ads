@@ -20,11 +20,11 @@ $megaCustomers = [
 $megaIndustries = [
     ['Mobile utilities', $base . 'mobile-utilities.php'],
     ['Software', $base . 'software.php'],
-    ['E-commerce', $base . 'index.php#solutions'],
-    ['Mobile apps', $base . 'index.php#solutions'],
-    ['Lead generation', $base . 'index.php#solutions'],
-    ['Finance', $base . 'index.php#solutions'],
-    ['iGaming', $base . 'index.php#solutions'],
+    ['E-commerce', $base . 'ecommerce.php'],
+    ['Mobile apps', $base . 'mobile-apps.php'],
+    ['Lead generation', $base . 'sweepstakes.php'],
+    ['Finance', $base . 'finance.php'],
+    ['iGaming', $base . 'igaming.php'],
 ];
 ?>
 <!DOCTYPE html>

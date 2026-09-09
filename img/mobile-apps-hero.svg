@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Get more users for your mobile app" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs><linearGradient id="ma2_g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E8A76"/><stop offset="1" stop-color="#235544"/></linearGradient></defs>
+  <path d="M300 60 C 430 45 520 150 500 260 C 486 340 520 380 440 420 C 350 460 240 430 220 350 C 205 290 235 255 275 220 C 315 185 220 110 300 60 Z" fill="#EAF2EF"/>
+  <g fill="#2E6E5E"><circle cx="120" cy="150" r="4"/><circle cx="136" cy="150" r="4"/><circle cx="120" cy="166" r="4"/><circle cx="136" cy="166" r="4"/></g>
+  <text x="430" y="150" font-size="26">😀</text>
+  <polygon points="440,300 454,324 426,324" fill="none" stroke="#2E6E5E" stroke-width="2"/>
+
+  <!-- phone with app grid -->
+  <rect x="150" y="120" width="160" height="270" rx="26" fill="#1B1B1B"/>
+  <rect x="160" y="130" width="140" height="250" rx="18" fill="url(#ma2_g)"/>
+  <g fill="#fff" opacity=".9">
+    <rect x="178" y="150" width="30" height="30" rx="8"/><rect x="215" y="150" width="30" height="30" rx="8"/><rect x="252" y="150" width="30" height="30" rx="8"/>
+    <rect x="178" y="187" width="30" height="30" rx="8"/><rect x="215" y="187" width="30" height="30" rx="8"/><rect x="252" y="187" width="30" height="30" rx="8"/>
+    <rect x="178" y="224" width="30" height="30" rx="8"/><rect x="215" y="224" width="30" height="30" rx="8"/><rect x="252" y="224" width="30" height="30" rx="8"/>
+  </g>
+
+  <!-- person with megaphone -->
+  <g>
+    <rect x="330" y="250" width="72" height="100" rx="20" fill="#2E6E5E"/>
+    <circle cx="366" cy="224" r="26" fill="#EBB98F"/>
+    <path d="M340 220 C 340 196 392 196 392 220 C 392 208 380 202 366 202 C 352 202 340 208 340 220 Z" fill="#235544"/>
+    <!-- megaphone -->
+    <path d="M300 250 L340 236 L340 276 L300 262 Z" fill="#F2C94C" stroke="#1B1B1B" stroke-width="3"/>
+    <rect x="292" y="250" width="10" height="12" fill="#F2C94C" stroke="#1B1B1B" stroke-width="3"/>
+  </g>
+
+  <!-- speech / reaction bubbles -->
+  <g><rect x="400" y="200" width="56" height="40" rx="10" fill="#F2C94C"/><path d="M420 240 l0 12 l12 -12 z" fill="#F2C94C"/><text x="428" y="226" text-anchor="middle" font-size="18">👍</text></g>
+  <circle cx="430" cy="300" r="26" fill="#3E8A76"/><text x="430" y="309" text-anchor="middle" font-size="22">🙂</text>
+  <circle cx="470" cy="360" r="20" fill="#F2C94C"/><text x="470" y="368" text-anchor="middle" font-size="16">👤</text>
+</svg>

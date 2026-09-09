@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="iGaming advertising campaigns that scale" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs><linearGradient id="ig_g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E8A76"/><stop offset="1" stop-color="#235544"/></linearGradient></defs>
+  <path d="M300 70 C 430 55 520 150 500 260 C 486 340 520 380 430 415 C 340 450 240 420 225 345 Z" fill="#EAF2EF" opacity=".7"/>
+  <text x="150" y="330" font-size="26">🚀</text>
+  <text x="150" y="180" font-size="22">❤️</text>
+  <polygon points="150,410 164,434 136,434" fill="none" stroke="#2E6E5E" stroke-width="2"/>
+  <g fill="#2E6E5E"><circle cx="470" cy="150" r="4"/><circle cx="486" cy="150" r="4"/><circle cx="470" cy="166" r="4"/><circle cx="486" cy="166" r="4"/></g>
+
+  <!-- chart card -->
+  <rect x="230" y="110" width="150" height="90" rx="10" fill="#fff" stroke="#D7DEDC" stroke-width="2"/>
+  <polyline points="245,180 275,150 300,160 330,130 365,140" fill="none" stroke="#3E8A76" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#2E6E5E"><rect x="245" y="165" width="12" height="20" rx="2"/><rect x="268" y="155" width="12" height="30" rx="2"/><rect x="291" y="160" width="12" height="25" rx="2"/></g>
+
+  <!-- globe with $ -->
+  <circle cx="440" cy="290" r="70" fill="url(#ig_g)"/>
+  <g stroke="#EAF2EF" stroke-width="2" fill="none" opacity=".6"><ellipse cx="440" cy="290" rx="70" ry="28"/><ellipse cx="440" cy="290" rx="30" ry="70"/><line x1="370" y1="290" x2="510" y2="290"/></g>
+  <circle cx="465" cy="300" r="22" fill="#F2C94C"/><text x="465" y="308" text-anchor="middle" font-size="20" font-weight="800" fill="#235544">$</text>
+
+  <!-- person holding big $ -->
+  <g>
+    <rect x="270" y="300" width="90" height="120" rx="22" fill="#2E6E5E"/>
+    <path d="M300 300 L315 336 L330 300 Z" fill="#fff"/>
+    <circle cx="315" cy="272" r="28" fill="#EBB98F"/>
+    <path d="M287 268 C 287 242 343 242 343 268 C 343 254 331 248 315 248 C 299 248 287 254 287 268 Z" fill="#3E8A76"/>
+    <path d="M355 330 C 375 310 385 285 395 265" fill="none" stroke="#EBB98F" stroke-width="14" stroke-linecap="round"/>
+    <text x="405" y="270" text-anchor="middle" font-size="46" font-weight="800" fill="#235544">$</text>
+  </g>
+
+  <!-- trophy with cash -->
+  <g transform="translate(430,370)">
+    <path d="M-26,0 h52 v10 a26 26 0 0 1 -52 0 z" fill="#F2C94C" stroke="#1B1B1B" stroke-width="2"/>
+    <rect x="-6" y="34" width="12" height="14" fill="#F2C94C"/><rect x="-20" y="48" width="40" height="8" rx="2" fill="#1B1B1B"/>
+    <text x="0" y="-6" text-anchor="middle" font-size="18">💵</text>
+  </g>
+  <circle cx="330" cy="410" r="20" fill="#F2C94C"/><text x="330" y="418" text-anchor="middle" font-size="16" font-weight="800" fill="#235544">$</text>
+  <circle cx="510" cy="200" r="16" fill="none" stroke="#F2C94C" stroke-width="5"/>
+</svg>
