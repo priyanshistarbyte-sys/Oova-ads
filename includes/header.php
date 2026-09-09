@@ -85,14 +85,14 @@ $megaIndustries = [
 
             <!-- shown only inside the mobile menu -->
             <div class="nav__mobile-actions">
-                <a href="#" class="btn btn--ghost">Log in</a>
+                <a href="https://panel.oovaads.com/login" class="btn btn--ghost">Log in</a>
                 <a href="https://panel.oovaads.com/login" class="btn btn--primary">Start now</a>
             </div>
         </nav>
 
         <div class="header__actions">
             <span class="lang">EN ▾</span>
-            <a href="#" class="header__login">Log in</a>
+            <a href="https://panel.oovaads.com/login" class="header__login">Log in</a>
             <a href="https://panel.oovaads.com/login" class="btn btn--primary">Start now</a>
             <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
         </div>
