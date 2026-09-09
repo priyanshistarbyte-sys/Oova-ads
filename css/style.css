@@ -391,7 +391,7 @@ a.company-tile__value:hover { color: #A9E0D1; }
 .vsum__plus::after  { top: 2px; left: 10px; width: 2px; height: 18px; }          /* vertical */
 .vitem[open] .vsum__plus::after { transform: rotate(90deg); opacity: 0; }         /* + → − */
 
-.vbody { padding: 0 24px 24px 96px; animation: vOpen .3s ease; }
+.vbody { padding: 0 24px 24px; animation: vOpen .3s ease; }
 @keyframes vOpen { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
 .vbody__list { display: grid; gap: 10px; margin-bottom: 18px; }
 .vbody__list li { font-size: 15px; color: var(--dark-2); padding-left: 26px; position: relative; line-height: 1.5; }
@@ -497,7 +497,6 @@ a.company-tile__value:hover { color: #A9E0D1; }
 
 .chsum { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 22px 28px; }
 .chsum::-webkit-details-marker { display: none; }
-.chsum__icon { font-size: 22px; }
 .chsum__name { flex: 1; font-size: 19px; font-weight: 800; color: var(--dark); letter-spacing: -.01em; }
 .chitem[open] .chsum__name { color: var(--green); }
 .chsum__chev { color: var(--green); font-size: 22px; line-height: 1; transition: transform .25s ease; }

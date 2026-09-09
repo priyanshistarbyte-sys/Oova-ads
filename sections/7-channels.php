@@ -2,22 +2,22 @@
 /* SECTION 7 — Acquisition channels / ad formats  (PropellerAds ha-section-07)
    Accordion: each format expands to bullets (left) + a device mockup (right). One open at a time. */
 $channels = [
-    ['icon' => '📢', 'name' => 'Paid & Organic Social', 'title' => 'Paid & Organic Social',
+    ['name' => 'Paid & Organic Social', 'title' => 'Paid & Organic Social',
      'desc' => 'Reach high-intent users across social platforms, sourced via our partner network. No need to juggle accounts or duplicate setups — just launch a new campaign in OOVA Ads.',
      'specs' => [['Performance', 'up to 30x higher CR vs display'], ['Access', 'Premium social inventory via our partner network'], ['Engagement', 'Users actively exploring new content'], ['Launch', 'Just paste your landing page — no creatives needed']]],
-    ['icon' => '🎮', 'name' => 'Interactive Ads', 'title' => 'Interactive Ads',
+    ['name' => 'Interactive Ads', 'title' => 'Interactive Ads',
      'desc' => 'Pre-qualified audiences are pre-engaged with playable-style creatives before they see your offers.',
      'specs' => [['Reach', '66M+ daily, 2B impressions monthly, worldwide coverage'], ['Top Verticals', 'Ready-to-convert users for Finance, Social & Giveaways'], ['Mechanic', 'Drive users straight to your landing page with zero friction']]],
-    ['icon' => '✈️', 'name' => 'Telegram Mini Apps', 'title' => 'Telegram Mini Apps Ads',
+    ['name' => 'Telegram Mini Apps', 'title' => 'Telegram Mini Apps Ads',
      'desc' => 'Tap into the fast-growing Telegram ecosystem and reach users right inside mini apps.',
      'specs' => [['Reach', 'Millions of daily Telegram users'], ['Format', 'Native mini-app placements'], ['Best for', 'iGaming, crypto, utilities']]],
-    ['icon' => '🖱️', 'name' => 'Popunder (Onclick)', 'title' => 'Popunder (Onclick) Ads',
+    ['name' => 'Popunder (Onclick)', 'title' => 'Popunder (Onclick) Ads',
      'desc' => 'Full-page ads that capture attention with massive reach and unbeatable scale.',
      'specs' => [['Volume', 'Billions of impressions daily'], ['Format', 'Full-page onclick'], ['Best for', 'Fast testing & scaling']]],
-    ['icon' => '🔔', 'name' => 'Push / In-Page Push', 'title' => 'Push & In-Page Push',
+    ['name' => 'Push / In-Page Push', 'title' => 'Push & In-Page Push',
      'desc' => 'Two push formats, one buying interface — classic push for opted-ins, in-page push for actively browsing audiences across all devices.',
      'specs' => [['Scale', '186B+ monthly impressions'], ['Coverage', 'All devices and platforms, including iOS and macOS'], ['Creatives', 'Custom or AI-generated with dynamic personalization'], ['Delivery', 'Reaches users on-session and off-browser']]],
-    ['icon' => '⚡', 'name' => 'DSP / oRTB', 'title' => 'DSP / oRTB',
+    ['name' => 'DSP / oRTB', 'title' => 'DSP / oRTB',
      'desc' => 'Buy programmatically through our DSP with full oRTB integration and granular control.',
      'specs' => [['Access', 'Programmatic oRTB inventory'], ['Control', 'Granular targeting & bidding'], ['Best for', 'Advanced media buyers']]],
 ];
@@ -34,7 +34,6 @@ $channels = [
             <?php foreach ($channels as $i => $c): ?>
                 <details class="chitem" name="channels"<?= $i === 0 ? ' open' : '' ?>>
                     <summary class="chsum">
-                        <span class="chsum__icon"><?= $c['icon'] ?></span>
                         <span class="chsum__name"><?= $c['name'] ?></span>
                         <span class="chsum__chev" aria-hidden="true">⌄</span>
                     </summary>
