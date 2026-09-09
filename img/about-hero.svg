@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Marketer building a campaign on a dashboard" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="ah_g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E8A76"/><stop offset="1" stop-color="#235544"/></linearGradient>
+  </defs>
+
+  <!-- backdrop blob -->
+  <path d="M120 300 C 40 260 60 150 150 130 C 210 116 250 60 330 90 C 430 128 470 250 400 320 C 340 380 200 350 120 300 Z" fill="#EAF2EF"/>
+  <!-- decorative dots -->
+  <g fill="#3E8A76"><circle cx="70" cy="150" r="4"/><circle cx="86" cy="150" r="4"/><circle cx="70" cy="166" r="4"/><circle cx="86" cy="166" r="4"/><circle cx="70" cy="182" r="4"/><circle cx="86" cy="182" r="4"/></g>
+  <polygon points="440,90 452,112 428,112" fill="#F2C94C"/>
+  <circle cx="410" cy="300" r="18" fill="none" stroke="#F2C94C" stroke-width="4"/>
+
+  <!-- big dashboard screen -->
+  <rect x="180" y="120" width="250" height="180" rx="12" fill="#fff" stroke="#D7DEDC" stroke-width="2"/>
+  <rect x="180" y="120" width="250" height="30" rx="12" fill="url(#ah_g)"/>
+  <circle cx="196" cy="135" r="4" fill="#fff" opacity=".8"/><circle cx="210" cy="135" r="4" fill="#fff" opacity=".5"/><circle cx="224" cy="135" r="4" fill="#fff" opacity=".3"/>
+  <!-- pie -->
+  <circle cx="230" cy="205" r="30" fill="#EAF2EF"/>
+  <path d="M230 205 L230 175 A30 30 0 0 1 258 216 Z" fill="#3E8A76"/>
+  <path d="M230 205 L258 216 A30 30 0 0 1 205 224 Z" fill="#F2C94C"/>
+  <!-- bar chart -->
+  <g fill="#2E6E5E"><rect x="285" y="200" width="14" height="35" rx="3"/><rect x="307" y="185" width="14" height="50" rx="3"/><rect x="329" y="170" width="14" height="65" rx="3"/><rect x="351" y="192" width="14" height="43" rx="3"/></g>
+  <polyline points="285,180 307,168 329,150 351,158 373,140" fill="none" stroke="#F2C94C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- lines -->
+  <rect x="200" y="250" width="120" height="7" rx="3.5" fill="#E3E9E7"/>
+  <rect x="200" y="265" width="90" height="7" rx="3.5" fill="#E3E9E7"/>
+
+  <!-- create campaign panel -->
+  <rect x="150" y="250" width="150" height="120" rx="12" fill="#1B1B1B"/>
+  <text x="168" y="285" fill="#7FD1B9" font-size="13" font-weight="800" letter-spacing=".5">CREATE</text>
+  <text x="168" y="303" fill="#fff" font-size="13" font-weight="800" letter-spacing=".5">CAMPAIGN</text>
+  <rect x="168" y="316" width="80" height="10" rx="5" fill="#ffffff" opacity=".2"/>
+  <rect x="168" y="332" width="110" height="10" rx="5" fill="#ffffff" opacity=".2"/>
+  <rect x="168" y="350" width="70" height="14" rx="7" fill="#2E6E5E"/>
+
+  <!-- person -->
+  <g>
+    <path d="M95 370 C 95 320 120 300 150 300 L 150 370 Z" fill="#2E6E5E"/>
+    <rect x="95" y="300" width="60" height="70" rx="18" fill="#3E8A76"/>
+    <circle cx="120" cy="278" r="24" fill="#F4C9A8"/>
+    <path d="M97 272 C 97 250 143 250 143 272 C 143 262 133 256 120 256 C 107 256 97 262 97 272 Z" fill="#235544"/>
+    <path d="M150 330 C 180 320 185 300 200 285" fill="none" stroke="#F4C9A8" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" role="img" aria-label="OVA AI chat: describing a campaign and getting a ready-to-launch draft" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#1B1B1B" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <!-- card -->
+  <rect x="8" y="8" width="424" height="544" rx="24" fill="#ffffff" stroke="#E3E9E7" filter="url(#cardShadow)"/>
+
+  <!-- ===== header ===== -->
+  <g>
+    <circle cx="42" cy="44" r="17" fill="#2E6E5E"/>
+    <!-- robot face -->
+    <rect x="34" y="38" width="16" height="12" rx="3" fill="#ffffff"/>
+    <circle cx="39" cy="44" r="1.8" fill="#2E6E5E"/>
+    <circle cx="45" cy="44" r="1.8" fill="#2E6E5E"/>
+    <line x1="42" y1="31" x2="42" y2="27" stroke="#2E6E5E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="42" cy="26" r="2" fill="#3E8A76"/>
+    <text x="70" y="40" fill="#1B1B1B" font-size="16" font-weight="800">OVA AI</text>
+    <g>
+      <rect x="70" y="48" width="66" height="16" rx="8" fill="#EAF2EF"/>
+      <circle cx="80" cy="56" r="3" fill="#2E6E5E"/>
+      <text x="88" y="60" fill="#2E6E5E" font-size="10" font-weight="700">Launch</text>
+    </g>
+  </g>
+  <line x1="24" y1="80" x2="416" y2="80" stroke="#EEF2F1" stroke-width="1.5"/>
+
+  <!-- ===== chat messages ===== -->
+
+  <!-- msg1: bot greeting + chips -->
+  <g transform="translate(30,96)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06;0.10;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.06;0.10;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <circle cx="9" cy="12" r="10" fill="#2E6E5E"/>
+      <rect x="30" y="-2" width="268" height="58" rx="16" fill="#F1F5F4"/>
+      <text x="44" y="20" fill="#1B1B1B" font-size="13">Hey 👋 What do you want to get?</text>
+      <text x="44" y="42" fill="#2E6E5E" font-size="11.5" font-weight="700">Installs · Leads · Sales · FTDs</text>
+    </g>
+  </g>
+
+  <!-- msg2: user -->
+  <g transform="translate(0,164)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.22;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.18;0.22;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="238" y="0" width="172" height="36" rx="16" fill="#2E6E5E"/>
+      <text x="324" y="23" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">App installs in Brazil</text>
+    </g>
+  </g>
+
+  <!-- msg3: bot budget -->
+  <g transform="translate(30,214)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.34;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.30;0.34;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <circle cx="9" cy="12" r="10" fill="#2E6E5E"/>
+      <rect x="30" y="-2" width="200" height="36" rx="16" fill="#F1F5F4"/>
+      <text x="44" y="21" fill="#1B1B1B" font-size="13">Nice. What's your budget?</text>
+    </g>
+  </g>
+
+  <!-- msg4: user budget -->
+  <g transform="translate(0,262)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.46;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.42;0.46;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="278" y="0" width="132" height="36" rx="16" fill="#2E6E5E"/>
+      <text x="344" y="23" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="600">$2,000 / week</text>
+    </g>
+  </g>
+
+  <!-- msg5: bot targeting -->
+  <g transform="translate(30,312)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.54;0.58;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.54;0.58;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <circle cx="9" cy="12" r="10" fill="#2E6E5E"/>
+      <rect x="30" y="-2" width="264" height="56" rx="16" fill="#F1F5F4"/>
+      <text x="44" y="19" fill="#1B1B1B" font-size="12.5">Picked your audiences &amp; targeting:</text>
+      <text x="44" y="40" fill="#2E6E5E" font-size="12" font-weight="700">3 channels · 1 geo · 12 segments</text>
+    </g>
+  </g>
+
+  <!-- msg6: bot draft ready -->
+  <g transform="translate(30,382)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.70;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0;0 0;0 0" keyTimes="0;0.66;0.70;0.93;1" dur="9s" repeatCount="indefinite"/>
+      <circle cx="9" cy="12" r="10" fill="#2E6E5E"/>
+      <rect x="30" y="-2" width="278" height="52" rx="16" fill="#E7F3EE" stroke="#CBE5DB"/>
+      <path d="M44,16 l6,6 l12,-12" fill="none" stroke="#2E6E5E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="18" fill="#1B1B1B" font-size="12.5" font-weight="700">Campaign draft ready</text>
+      <text x="44" y="40" fill="#5C6B66" font-size="11.5">No manual setup — review &amp; launch ↗</text>
+    </g>
+  </g>
+
+  <!-- ===== input bar ===== -->
+  <rect x="24" y="498" width="392" height="46" rx="15" fill="#ffffff" stroke="#E3E9E7"/>
+  <text x="42" y="527" fill="#8A9793" font-size="13">Describe your campaign…</text>
+  <g>
+    <rect x="376" y="505" width="32" height="32" rx="10" fill="#2E6E5E">
+      <animate attributeName="fill" values="#2E6E5E;#3E8A76;#2E6E5E" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M386,521 h10 m-4,-4 l4,4 l-4,4" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

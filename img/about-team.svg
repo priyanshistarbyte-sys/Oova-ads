@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="A team collaborating around a table" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <!-- backdrop -->
+  <ellipse cx="260" cy="250" rx="210" ry="150" fill="#EAF2EF"/>
+  <g fill="#3E8A76"><circle cx="70" cy="90" r="4"/><circle cx="86" cy="90" r="4"/><circle cx="70" cy="106" r="4"/><circle cx="86" cy="106" r="4"/></g>
+  <polygon points="450,70 462,92 438,92" fill="#F2C94C"/>
+  <circle cx="440" cy="300" r="14" fill="none" stroke="#3E8A76" stroke-width="3"/>
+
+  <!-- table -->
+  <ellipse cx="260" cy="330" rx="150" ry="34" fill="#2E6E5E"/>
+  <ellipse cx="260" cy="322" rx="150" ry="34" fill="#3E8A76"/>
+  <!-- laptop + cups on table -->
+  <rect x="230" y="300" width="60" height="30" rx="3" fill="#1B1B1B"/>
+  <rect x="236" y="305" width="48" height="20" rx="2" fill="#7FD1B9"/>
+  <circle cx="200" cy="318" r="7" fill="#F2C94C"/>
+  <rect x="315" y="308" width="16" height="16" rx="3" fill="#EAF2EF"/>
+
+  <!-- person left -->
+  <g>
+    <rect x="120" y="250" width="60" height="70" rx="18" fill="#2E6E5E"/>
+    <circle cx="150" cy="228" r="22" fill="#F4C9A8"/>
+    <path d="M128 224 C 128 202 172 202 172 224 C 172 214 162 208 150 208 C 138 208 128 214 128 224 Z" fill="#1B1B1B"/>
+  </g>
+  <!-- person center -->
+  <g>
+    <rect x="228" y="238" width="64" height="74" rx="18" fill="#235544"/>
+    <circle cx="260" cy="214" r="24" fill="#EBB98F"/>
+    <path d="M236 210 C 236 186 284 186 284 210 C 284 198 272 192 260 192 C 248 192 236 198 236 210 Z" fill="#3E8A76"/>
+  </g>
+  <!-- person right -->
+  <g>
+    <rect x="340" y="250" width="60" height="70" rx="18" fill="#3E8A76"/>
+    <circle cx="370" cy="228" r="22" fill="#F4C9A8"/>
+    <path d="M348 224 C 348 202 392 202 392 224 C 392 214 382 208 370 208 C 358 208 348 214 348 224 Z" fill="#235544"/>
+  </g>
+
+  <!-- speech / idea bubbles -->
+  <g>
+    <rect x="360" y="150" width="90" height="56" rx="12" fill="#fff" stroke="#D7DEDC" stroke-width="2"/>
+    <rect x="374" y="166" width="62" height="7" rx="3.5" fill="#2E6E5E"/>
+    <rect x="374" y="180" width="46" height="7" rx="3.5" fill="#E3E9E7"/>
+    <rect x="374" y="192" width="54" height="7" rx="3.5" fill="#E3E9E7"/>
+  </g>
+  <circle cx="150" cy="150" r="26" fill="#F2C94C"/>
+  <text x="150" y="159" text-anchor="middle" font-size="24">💡</text>
+</svg>

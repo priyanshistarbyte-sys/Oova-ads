@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Advertiser optimizing brand campaigns" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="da_g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E8A76"/><stop offset="1" stop-color="#235544"/></linearGradient>
+  </defs>
+  <!-- backdrop blob -->
+  <path d="M300 70 C 430 55 520 150 500 260 C 486 340 520 380 440 420 C 350 460 240 430 220 350 C 205 290 235 255 275 220 C 315 185 220 120 300 70 Z" fill="#EAF2EF"/>
+  <g fill="#2E6E5E"><circle cx="430" cy="120" r="4"/><circle cx="446" cy="120" r="4"/><circle cx="462" cy="120" r="4"/><circle cx="430" cy="136" r="4"/><circle cx="446" cy="136" r="4"/><circle cx="462" cy="136" r="4"/></g>
+  <polygon points="150,150 164,174 136,174" fill="#2E6E5E" fill-opacity=".3"/>
+
+  <!-- gears -->
+  <g transform="translate(150,300)" fill="none" stroke="#2E6E5E" stroke-width="6">
+    <circle r="26"/><g stroke-width="8"><line x1="0" y1="-26" x2="0" y2="-38"/><line x1="0" y1="26" x2="0" y2="38"/><line x1="-26" y1="0" x2="-38" y2="0"/><line x1="26" y1="0" x2="38" y2="0"/></g>
+  </g>
+  <g transform="translate(120,250)" fill="none" stroke="#F2C94C" stroke-width="5"><circle r="16"/></g>
+
+  <!-- settings / toggles panel -->
+  <rect x="280" y="150" width="180" height="120" rx="14" fill="#fff" stroke="#D7DEDC" stroke-width="2"/>
+  <rect x="280" y="150" width="180" height="26" rx="14" fill="url(#da_g)"/>
+  <g>
+    <rect x="300" y="192" width="54" height="20" rx="10" fill="#EAF2EF"/><circle cx="344" cy="202" r="9" fill="#2E6E5E"/>
+    <rect x="300" y="222" width="54" height="20" rx="10" fill="#EAF2EF"/><circle cx="310" cy="232" r="9" fill="#F2C94C"/>
+    <rect x="372" y="192" width="70" height="10" rx="5" fill="#E3E9E7"/>
+    <rect x="372" y="212" width="54" height="10" rx="5" fill="#E3E9E7"/>
+    <rect x="372" y="232" width="62" height="10" rx="5" fill="#E3E9E7"/>
+  </g>
+
+  <!-- ADS window -->
+  <rect x="400" y="290" width="120" height="80" rx="10" fill="#fff" stroke="#2E6E5E" stroke-width="2"/>
+  <rect x="400" y="290" width="120" height="18" rx="10" fill="#EAF2EF"/>
+  <text x="460" y="342" text-anchor="middle" fill="#2E6E5E" font-size="26" font-weight="800">ADS</text>
+  <text x="505" y="330" font-size="16">📢</text>
+
+  <!-- person at laptop -->
+  <g>
+    <path d="M250 420 C 250 360 290 340 330 350 L 330 420 Z" fill="#F2C94C"/>
+    <rect x="250" y="345" width="90" height="75" rx="20" fill="#F2C94C"/>
+    <circle cx="278" cy="316" r="28" fill="#EBB98F"/>
+    <path d="M250 314 C 250 286 306 286 306 314 C 306 296 292 288 278 288 C 264 288 250 296 250 314 Z" fill="#2E6E5E"/>
+    <path d="M330 380 C 360 372 378 350 392 330" fill="none" stroke="#EBB98F" stroke-width="13" stroke-linecap="round"/>
+    <rect x="300" y="392" width="90" height="14" rx="4" fill="#1B1B1B"/>
+  </g>
+</svg>

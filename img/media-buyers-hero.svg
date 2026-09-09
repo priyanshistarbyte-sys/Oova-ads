@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Media buying team collaborating" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="mb_g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E8A76"/><stop offset="1" stop-color="#235544"/></linearGradient>
+  </defs>
+  <!-- backdrop blobs -->
+  <ellipse cx="300" cy="240" rx="220" ry="170" fill="#EAF2EF"/>
+  <g fill="#2E6E5E"><circle cx="70" cy="150" r="4"/><circle cx="86" cy="150" r="4"/><circle cx="70" cy="166" r="4"/><circle cx="86" cy="166" r="4"/></g>
+  <polygon points="120,300 134,324 106,324" fill="#2E6E5E" fill-opacity=".3"/>
+
+  <!-- chat / notification bubbles -->
+  <rect x="330" y="70" width="150" height="46" rx="12" fill="url(#mb_g)"/>
+  <text x="352" y="98" fill="#fff" font-size="18">🔔</text><rect x="374" y="86" width="88" height="7" rx="3.5" fill="#fff" opacity=".8"/><rect x="374" y="98" width="60" height="7" rx="3.5" fill="#fff" opacity=".5"/>
+  <rect x="430" y="140" width="110" height="52" rx="12" fill="#fff" stroke="#D7DEDC" stroke-width="2"/>
+  <rect x="446" y="156" width="78" height="7" rx="3.5" fill="#2E6E5E"/><rect x="446" y="170" width="56" height="7" rx="3.5" fill="#E3E9E7"/>
+  <rect x="150" y="120" width="80" height="30" rx="10" fill="#F2C94C"/><circle cx="176" cy="135" r="3" fill="#1B1B1B"/><circle cx="190" cy="135" r="3" fill="#1B1B1B"/><circle cx="204" cy="135" r="3" fill="#1B1B1B"/>
+  <polygon points="300,120 312,142 288,142" fill="#F2C94C"/>
+
+  <!-- table -->
+  <ellipse cx="290" cy="340" rx="180" ry="40" fill="url(#mb_g)"/>
+  <ellipse cx="290" cy="332" rx="180" ry="40" fill="#3E8A76"/>
+  <rect x="255" y="300" width="70" height="36" rx="4" fill="#1B1B1B"/><rect x="261" y="305" width="58" height="26" rx="2" fill="#7FD1B9"/>
+  <!-- CLICK HERE window -->
+  <rect x="130" y="290" width="120" height="70" rx="8" fill="#fff" stroke="#2E6E5E" stroke-width="2"/>
+  <rect x="130" y="290" width="120" height="16" rx="8" fill="#EAF2EF"/>
+  <rect x="150" y="320" width="80" height="10" rx="5" fill="#E3E9E7"/>
+  <rect x="160" y="338" width="60" height="16" rx="8" fill="#2E6E5E"/><text x="190" y="350" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">CLICK HERE</text>
+
+  <!-- three people -->
+  <g><rect x="150" y="230" width="66" height="80" rx="18" fill="#F2C94C"/><circle cx="183" cy="206" r="24" fill="#EBB98F"/><path d="M161 202 C 161 180 205 180 205 202 C 205 190 195 184 183 184 C 171 184 161 190 161 202 Z" fill="#2E6E5E"/></g>
+  <g><rect x="258" y="248" width="64" height="76" rx="18" fill="#F2C94C"/><circle cx="290" cy="224" r="22" fill="#F4C9A8"/><path d="M268 220 C 268 198 312 198 312 220 C 312 208 302 202 290 202 C 278 202 268 208 268 220 Z" fill="#235544"/></g>
+  <g><rect x="360" y="230" width="70" height="90" rx="20" fill="#2E6E5E"/><circle cx="395" cy="206" r="24" fill="#EBB98F"/><path d="M373 202 C 373 180 417 180 417 202 C 417 190 407 184 395 184 C 383 184 373 190 373 202 Z" fill="#235544"/></g>
+</svg>

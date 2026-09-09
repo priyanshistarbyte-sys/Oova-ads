@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" role="img" aria-label="Ad format preview on laptop and phone" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E6E5E"/>
+      <stop offset="1" stop-color="#163f34"/>
+    </linearGradient>
+    <linearGradient id="scr2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3E8A76"/>
+      <stop offset="1" stop-color="#235544"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#1B1B1B" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <!-- ===== Laptop ===== -->
+  <g filter="url(#ds)">
+    <rect x="40" y="70" width="360" height="228" rx="14" fill="#1B1B1B"/>
+    <rect x="52" y="82" width="336" height="204" rx="6" fill="url(#scr)"/>
+  </g>
+  <!-- laptop base -->
+  <path d="M20 300 H420 L410 322 H30 Z" fill="#D7DEDC"/>
+  <rect x="18" y="298" width="404" height="6" rx="3" fill="#BCC7C3"/>
+
+  <!-- laptop screen content: ad creative -->
+  <g>
+    <circle cx="80" cy="110" r="4" fill="#7FD1B9" opacity=".8"/>
+    <text x="94" y="114" fill="#CFEAE1" font-size="10" font-weight="700">OOVA ADS</text>
+    <text x="220" y="150" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">GET 10 FREE</text>
+    <text x="220" y="178" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">TRIES TODAY</text>
+    <rect x="150" y="200" width="140" height="34" rx="17" fill="#7FD1B9"/>
+    <text x="220" y="222" text-anchor="middle" fill="#0F3529" font-size="12" font-weight="800">CLAIM OFFER →</text>
+    <circle cx="330" cy="120" r="26" fill="#ffffff" opacity=".12"/>
+    <circle cx="110" cy="245" r="16" fill="#ffffff" opacity=".08"/>
+  </g>
+
+  <!-- ===== Phone (overlapping right) ===== -->
+  <g filter="url(#ds)">
+    <rect x="370" y="120" width="150" height="250" rx="26" fill="#1B1B1B"/>
+    <rect x="380" y="130" width="130" height="230" rx="18" fill="url(#scr2)"/>
+  </g>
+  <rect x="424" y="140" width="42" height="7" rx="3.5" fill="#1B1B1B" opacity=".5"/>
+
+  <!-- phone content: game/push creative -->
+  <g>
+    <text x="445" y="185" text-anchor="middle" fill="#fff" font-size="11" font-weight="800">CONGRATS! 🎉</text>
+    <text x="445" y="205" text-anchor="middle" fill="#EAF2EF" font-size="9">You unlocked a bonus</text>
+    <rect x="400" y="220" width="90" height="60" rx="10" fill="#ffffff" opacity=".14"/>
+    <text x="445" y="256" text-anchor="middle" fill="#fff" font-size="22">🏆</text>
+    <rect x="398" y="298" width="94" height="30" rx="15" fill="#7FD1B9"/>
+    <text x="445" y="318" text-anchor="middle" fill="#0F3529" font-size="10" font-weight="800">PLAY NOW</text>
+  </g>
+</svg>
