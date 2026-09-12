@@ -4,8 +4,8 @@
 /* $base lets pages in the project root (index.php, about.php) share this header. */
 $base = $base ?? '';
 $nav = [
-    'Platform'  => ['Multisource platform' => '#', 'AI campaign launch' => '#', 'Anti-fraud shield' => '#', 'Real-time analytics' => '#'],
-    'Formats'   => ['Push Ads' => '#', 'In-Page Push' => '#', 'Popunder' => '#', 'Interactive Ads' => '#', 'Social Traffic' => '#', 'DSP / oRTB' => '#'],
+    // 'Platform'  => ['Multisource platform' => '#', 'AI campaign launch' => '#', 'Anti-fraud shield' => '#', 'Real-time analytics' => '#'],
+    'Features'   => ['Performance' => $base . 'performance.php', 'Automation' => $base . 'automation.php', 'Traffic Volume' => $base . 'traffic-volume.php', 'Traffic Quality' => $base . 'traffic-quality.php', 'Campaign Management' => $base . 'campaign-management.php'],
     'Solutions' => [],  // rendered as a grouped mega-menu (see below)
     'Company'   => ['About us' => $base . 'about.php', 'Careers' => $base . 'about.php#careers', 'Contact' => $base . 'contact.php'],
 ];

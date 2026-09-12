@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="Impressions vs conversions chart" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="cmb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3E8A76" stop-opacity=".35"/><stop offset="1" stop-color="#3E8A76" stop-opacity="0"/></linearGradient>
+    <linearGradient id="cmy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C94C" stop-opacity=".35"/><stop offset="1" stop-color="#F2C94C" stop-opacity="0"/></linearGradient>
+    <filter id="cmsh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#1B1B1B" flood-opacity=".1"/></filter>
+  </defs>
+  <rect x="10" y="10" width="540" height="380" rx="18" fill="#fff" filter="url(#cmsh)"/>
+
+  <!-- legend -->
+  <g font-size="13" font-weight="600">
+    <line x1="40" y1="44" x2="66" y2="44" stroke="#2E6E5E" stroke-width="3"/><text x="72" y="48" fill="#5C6B66">Impressions</text>
+    <line x1="380" y1="44" x2="406" y2="44" stroke="#F2C94C" stroke-width="3"/><text x="412" y="48" fill="#5C6B66">Conversions, %</text>
+  </g>
+
+  <!-- axes grid -->
+  <g stroke="#EEF2F1" stroke-width="1.5">
+    <line x1="60" y1="90" x2="520" y2="90"/><line x1="60" y1="150" x2="520" y2="150"/><line x1="60" y1="210" x2="520" y2="210"/><line x1="60" y1="270" x2="520" y2="270"/><line x1="60" y1="330" x2="520" y2="330"/>
+  </g>
+  <g font-size="11" fill="#8A9793">
+    <text x="24" y="94">300M</text><text x="24" y="214">200M</text><text x="30" y="274">100M</text><text x="44" y="334">0</text>
+  </g>
+
+  <!-- impressions curve (green) -->
+  <path d="M60 330 C 130 328 150 150 190 120 C 250 96 400 96 520 92 L 520 330 Z" fill="url(#cmb)"/>
+  <path d="M60 330 C 130 328 150 150 190 120 C 250 96 400 96 520 92" fill="none" stroke="#2E6E5E" stroke-width="3"/>
+  <!-- conversions curve (gold) -->
+  <path d="M60 330 C 160 330 210 300 260 250 C 330 180 430 120 520 108 L 520 330 Z" fill="url(#cmy)"/>
+  <path d="M60 330 C 160 330 210 300 260 250 C 330 180 430 120 520 108" fill="none" stroke="#F2C94C" stroke-width="3"/>
+
+  <!-- marker line + points -->
+  <line x1="210" y1="90" x2="210" y2="330" stroke="#CBD6D2" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="210" cy="128" r="7" fill="#fff" stroke="#2E6E5E" stroke-width="3"/>
+  <circle cx="210" cy="286" r="7" fill="#fff" stroke="#F2C94C" stroke-width="3"/>
+
+  <!-- tooltip -->
+  <g filter="url(#cmsh)"><rect x="234" y="180" width="150" height="96" rx="10" fill="#fff"/></g>
+  <text x="248" y="204" font-size="12" font-weight="800" fill="#2E6E5E">292,300,473</text>
+  <text x="248" y="220" font-size="10" fill="#5C6B66">Impressions in auction</text>
+  <text x="248" y="244" font-size="12" font-weight="800" fill="#B8860B">36.29%</text>
+  <text x="248" y="260" font-size="10" fill="#5C6B66">of possible conversions</text>
+</svg>

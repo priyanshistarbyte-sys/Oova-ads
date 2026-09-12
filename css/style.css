@@ -129,6 +129,43 @@ a.company-tile__value:hover { color: #A9E0D1; }
     .solhero__media { max-width: 460px; margin: 0 auto; order: -1; } }
 @media (max-width: 520px)  { .sol-grid { grid-template-columns: 1fr; } }
 
+/* ===================================================================
+   FEATURE PAGES (performance / automation) — centered hero
+=================================================================== */
+.feathero { position: relative; overflow: hidden; text-align: center; padding: 96px 0 104px; background:
+    radial-gradient(900px 420px at 50% -10%, var(--green-tint) 0%, transparent 60%),
+    linear-gradient(180deg, #fff 0%, var(--green-tint-2) 100%); }
+.feathero__inner { position: relative; z-index: 2; max-width: 860px; margin: 0 auto; }
+.feathero h1 { font-size: clamp(34px, 5vw, 58px); }
+.feathero p { max-width: 660px; margin: 24px auto 0; color: var(--gray); font-size: 18px; }
+.feathero .btn { margin-top: 34px; }
+.feathero__deco { position: absolute; z-index: 1; opacity: .12; color: var(--green); pointer-events: none; user-select: none; line-height: 1; }
+.feathero__deco--tl { top: 14%; left: 6%; font-size: 120px; }
+.feathero__deco--tr { top: 20%; right: 7%; font-size: 96px; }
+.feathero__deco--bl { bottom: 12%; left: 12%; font-size: 84px; }
+.feathero__deco--br { bottom: 14%; right: 10%; font-size: 96px; }
+@media (max-width: 720px) { .feathero__deco { display: none; } .feathero { padding: 64px 0 72px; } }
+
+/* Campaign Management — alternating stage rows */
+.cm-row { margin-top: 64px; }
+.cm-row .grow__list { margin-top: 22px; }
+.cm-scale { margin-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.cm-scale__text h2 { font-size: clamp(24px, 3vw, 34px); }
+.cm-scale__text .grow__list { margin-top: 22px; }
+.cm-formats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.cm-fcard { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; transition: .2s ease; }
+.cm-fcard:hover { border-color: var(--green); box-shadow: var(--shadow); transform: translateY(-3px); }
+.cm-fcard__radio { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--green); display: block; margin-bottom: 14px; position: relative; }
+.cm-fcard__radio::after { content: ''; position: absolute; inset: 3px; border-radius: 50%; background: var(--green); }
+.cm-fcard__icon { font-size: 22px; }
+.cm-fcard h3 { font-size: 15px; margin: 8px 0 6px; }
+.cm-fcard p { font-size: 13px; color: var(--gray); line-height: 1.5; }
+@media (max-width: 900px) {
+    .cm-scale { grid-template-columns: 1fr; gap: 32px; }
+    .cm-row { margin-top: 44px; }
+}
+@media (max-width: 480px) { .cm-formats { grid-template-columns: 1fr; } }
+
 /* ---------- Buttons ---------- */
 .btn {
     display: inline-flex; align-items: center; gap: 10px;
@@ -726,6 +763,8 @@ a.company-tile__value:hover { color: #A9E0D1; }
     border-radius: var(--radius); padding: 34px 20px; text-align: center; color: #fff; }
 .statcard b { display: block; font-size: 42px; font-weight: 800; letter-spacing: -.02em; }
 .statcard span { font-size: 14px; color: #DCEAE5; margin-top: 6px; display: block; }
+.about-stats__grid--3 { grid-template-columns: repeat(3, 1fr); max-width: 900px; margin: 0 auto; }
+@media (max-width: 720px) { .about-stats__grid--3 { grid-template-columns: 1fr; } }
 /* light bordered variant (e.g. Software page) */
 .statcard--light { background: #fff; border: 1px solid var(--line); color: var(--dark); box-shadow: var(--shadow); }
 .statcard--light b { color: var(--green); }
