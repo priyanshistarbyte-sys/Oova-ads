@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
 $sections = [
     '1-hero',          // Hero + AI launch card
     '2-partners',      // Partner logo marquee
-    'awards',          // Awards / recognition carousel
+    //'awards',          // Awards / recognition carousel
     'flow-diagram',    // Animated supply → platform → conversions diagram
     // '3-reach',         // Reach 2B users
     '4-verticals',     // Industry verticals
