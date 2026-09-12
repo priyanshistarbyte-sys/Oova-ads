@@ -67,10 +67,10 @@ $footCols = [
         <div class="footer__bottom">
             <span>© <?= date('Y') ?> OOVA LLC. All rights reserved.</span>
             <div style="display:flex; gap:22px;">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms</a>
-                <a href="#">Cookies</a>
-                <a href="#">Opt-Out</a>
+                <a href="<?= $base ?? '' ?>privacy-policy.php">Privacy Policy</a>
+                <a href="<?= $base ?? '' ?>terms.php">Terms</a>
+                <a href="<?= $base ?? '' ?>cookies.php">Cookies</a>
+                <a href="<?= $base ?? '' ?>cookies.php#opt-out">Opt-Out</a>
             </div>
         </div>
     </div>

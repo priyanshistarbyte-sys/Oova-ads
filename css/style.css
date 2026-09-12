@@ -166,6 +166,34 @@ a.company-tile__value:hover { color: #A9E0D1; }
 }
 @media (max-width: 480px) { .cm-formats { grid-template-columns: 1fr; } }
 
+/* ===================================================================
+   LEGAL PAGES (privacy / terms / cookies)
+=================================================================== */
+.legal-hero { padding: 64px 0 40px; background:
+    radial-gradient(900px 380px at 50% -20%, var(--green-tint) 0%, transparent 60%),
+    linear-gradient(180deg, #fff 0%, var(--green-tint-2) 100%); text-align: center; }
+.legal-hero h1 { font-size: clamp(30px, 4.5vw, 46px); }
+.legal-hero p { color: var(--gray); margin-top: 12px; font-size: 15px; }
+.legal { padding: 56px 0 96px; }
+.legal__wrap { max-width: 820px; margin: 0 auto; }
+.legal__toc { background: var(--green-tint-2); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 22px 26px; margin-bottom: 40px; }
+.legal__toc h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--green); margin-bottom: 12px; }
+.legal__toc ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.legal__toc a { color: var(--dark-2); font-size: 15px; }
+.legal__toc a:hover { color: var(--green); }
+.legal h2 { font-size: 24px; margin: 40px 0 14px; scroll-margin-top: 96px; }
+.legal h2:first-child { margin-top: 0; }
+.legal h3 { font-size: 18px; margin: 24px 0 10px; }
+.legal p { color: var(--dark-2); font-size: 16px; line-height: 1.7; margin-bottom: 14px; }
+.legal ul { margin: 0 0 14px; padding-left: 4px; display: grid; gap: 8px; }
+.legal ul li { position: relative; padding-left: 24px; color: var(--dark-2); font-size: 16px; line-height: 1.6; }
+.legal ul li::before { content: '✓'; position: absolute; left: 0; top: 0; color: var(--green); font-weight: 800; }
+.legal a { color: var(--green); font-weight: 600; }
+.legal a:hover { text-decoration: underline; }
+.legal__note { background: var(--green-tint); border-left: 4px solid var(--green); border-radius: 8px;
+    padding: 16px 20px; margin: 20px 0; color: var(--dark-2); font-size: 15px; }
+
 /* ---------- Buttons ---------- */
 .btn {
     display: inline-flex; align-items: center; gap: 10px;
